@@ -10,7 +10,7 @@
 
 
     // Check we have sweet alert js included
-    if (angular.isUndefined(window.swal2)) {
+    if (angular.isUndefined(window.swal)) {
         throw "Please inlcude sweet alert 2 js and css from https://github.com/limonte/sweetalert2";
     }
 
