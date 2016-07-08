@@ -38,15 +38,6 @@
                 var sweetSuccessOption = scope.$eval(attrs.sweetSuccessOption);
                 var sweetDismissOption = scope.$eval(attrs.sweetDismissOption);
 
-
-                swal(sweetOptions).then(
-                    function (isConfirm) {
-                        if (isConfirm) {
-                            if (attrs.sweetOnConfirm) scope.$evalAsync(attrs.sweetOnConfirm);
-                            //sweetElement.trigger("click");
-                        } else {
-                        }
-                    });
                 swal(sweetOptions).then(function (result) {
                     if (sweetSuccessOption) swal(sweetSuccessOption);
                     if (attrs.sweetOnConfirm) scope.$evalAsync(attrs.sweetOnConfirm);
