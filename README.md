@@ -16,13 +16,13 @@ ng-sweet-alert-2 is an directive for sweet alert 2 [sweetalert2]. Integration of
 Install via bower
 
 ```sh
-bower install ng-sweet-alert
+bower install ng-sweet-alert-2
 ```
 
 Install via npm
 
 ```sh
-npm install ng-sweet-alert
+npm install ng-sweet-alert-2
 ```
 
 Add dependency in your module
